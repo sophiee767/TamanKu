@@ -23,7 +23,7 @@ public class TamanKu {
             System.out.println("4. Detail RTH & Laporkan Masalah");
             System.out.println("5. Cek Status Laporan");
             System.out.println("6. Informasi & Edukasi");
-            System.out.println("9. Simulasi Pengelola (demo)");
+            System.out.println("7. Simulasi Pengelola (demo)");
             System.out.println("0. Keluar");
             int pilihan = bacaAngka("Pilih menu: ");
 
@@ -34,7 +34,7 @@ public class TamanKu {
                 case 4: detailRTH(); break;
                 case 5: cekStatus(); break;
                 case 6: edukasi(); break;
-                case 9: simulasiPengelola(); break;
+                case 7: simulasiPengelola(); break;
                 case 0: jalan = false; break;
                 default: System.out.println("Menu tidak tersedia.");
             }
